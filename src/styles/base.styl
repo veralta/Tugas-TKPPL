@@ -1,0 +1,80 @@
+// Base styles for a Bespoke presentation
+
+*, ::before, ::after
+  box-sizing inherit
+
+html
+  box-sizing border-box
+  
+body {
+  font: 12px Helvetica, Arial, sans-serif
+  background-image url('../images/images.jpg')
+
+}
+
+.deck
+  width 100%
+
+.potrait
+  width 600px
+  
+
+.bespoke-parent, .bespoke-scale-parent
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+
+.bespoke-scale-parent, .bespoke-slide
+  pointer-events none
+
+.bespoke-slide
+  overflow hidden
+  // NOTE force opacity to start at 0 to avoid transition on load when using bespoke-scale
+  opacity 0
+  color #FFF
+  background rgba(249,222,12,0.1)
+  position absolute
+  top 50%
+  left 50%
+  width 100%
+  margin-left -(@width / 2)
+  height 480px
+  margin-top -(@height / 2)
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+
+.bespoke-theme-cube
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  perspective: 600px
+  pointer-events: none
+
+.bespoke-active
+  pointer-events auto
+  opacity 1
+  // NOTE Webkit requires z-index to be 1 for elements to receive focus (may no longer apply)
+  z-index 1
+
+.bespoke-inactive
+  transition-delay 0
+
+.bespoke-bullet
+  transition opacity 200ms ease-in-out
+  &-inactive
+    visibility hidden
+
+.emphatic
+  background-color #222
+
+.emphatic-text
+  color #fff
+
+aside[role=note], aside[role=notes]
+  display none

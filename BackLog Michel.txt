@@ -1,0 +1,18 @@
+H-1
+Hal yang dilakukan:
+- Penginstallan npm dan bespoke.js
+- Mencoba membuat tampilan bespoke.js sesuai dengan topik 
+  yang diangkat
+- Pemisahan layout/grid layout 
+
+Terkendala:
+- Penginstallan bespoke.js tidak lagi menggunakan grunt untuk menjalankan
+  servernya, jadi sempat bingung pada menjankan server melalui
+  grunt
+- Terdapat masalah saat menjalankan server bespoke menggunakan 
+  gulp serve dikarenakan tidak tahu bahwa gulp terjadi error jika
+  node.js yang diinstall memiliki versi yang lebih tinggi dari 12
+- Masalah pemisahan grid layout pada jade languange yang tidak sama dengan html
+- CSS menggunakan stylus cenderung sulit dimengerti dan tidak 
+  terdapat shortcut yang dapat membantu kita dalam mengubah cssnya
+  
