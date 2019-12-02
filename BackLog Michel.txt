@@ -16,3 +16,14 @@ Terkendala:
 - CSS menggunakan stylus cenderung sulit dimengerti dan tidak 
   terdapat shortcut yang dapat membantu kita dalam mengubah cssnya
   
+H-2
+Hal yang dilakukan:
+-Menambahkan Video
+-Grid Layout
+-Penambahan Gambar
+-Table
+
+Terkendala:
+- Grid layout cenderung sulit karena syntax stylus berbeda dengan css
+- Membuat table pada jade language memerlukan iterasi bukan lagi 
+  memakai tag "table, tr, th"
