@@ -27,3 +27,5 @@ Terkendala:
 - Grid layout cenderung sulit karena syntax stylus berbeda dengan css
 - Membuat table pada jade language memerlukan iterasi bukan lagi 
   memakai tag "table, tr, th"
+- Terjadi error saat menjalankan video. (Solusi ternyata perlu penambahan
+  embed pada link source yang kita ambil)
