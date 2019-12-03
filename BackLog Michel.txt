@@ -46,3 +46,23 @@ Terkendala:
   pengerjaan skor saya yang sebelumnya pada html semua terhapus
 - Kesimpulannya: File HTML pada proyek mengikuti File Pug kita
   mungkin karena sewaktu penginstallan bespoke saya pilih pug language
+
+H-4
+Hal yang dilakukan:
+- Meningstall XAMPP
+- Membuat database mysql melalui xampp
+- Buat HTML untuk web khusus peserta input jawaban kuis
+- Mengirim data hasil jawaban kuis oleh peserta ke database
+- Menambah soal tebak gambar
+- Menambah soal dengan media video
+
+Terkendala:
+- Terkendala pada mengirimkan data hasil inputan peserta agar dapat tersimpan
+  pada database phpmyadmin
+- Keliru akan POST dan GET di koding pada file save_data.php mengakibatkan
+  lama untuk memperbaikinya jadi data tidak bisa di passing
+- Data hanya dikirimkan string kosong bukan hasil jawaban peserta
+- Keliru akan menginisialisasikan nama variabel. Nama variabel pada file save_data.php
+  tidak sama dengan pemberian nama pada inputan di file form.html.
+  Akibatnya data tidak bisa dikirimkan ke save_data.php
+
