@@ -29,3 +29,20 @@ Terkendala:
   memakai tag "table, tr, th"
 - Terjadi error saat menjalankan video. (Solusi ternyata perlu penambahan
   embed pada link source yang kita ambil)
+
+H-3
+Hal yang dilakukan:
+- Kami mengganti topik kami yang dari sebelumnya adalah Pembahasan hero
+  menjadi topik tebak-tebakan
+- Penambahan Gambar untuk game tebak gambar
+- Menambahkan Skor tiap soal
+
+Terkendala:
+- Ternyata file pug dan html pada folder presentasi proyek
+  adalah 2 hal yang tidak saling berkaitan
+- Karena kesulitan dalam membuat papan skor dengan pug language
+  saya mencoba membuat skor dengan if conditional pada file htmlnya
+- Tapi setelah dilakukan penambahan data pada file pug, hasil dari
+  pengerjaan skor saya yang sebelumnya pada html semua terhapus
+- Kesimpulannya: File HTML pada proyek mengikuti File Pug kita
+  mungkin karena sewaktu penginstallan bespoke saya pilih pug language

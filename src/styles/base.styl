@@ -8,7 +8,7 @@ html
   
 body {
   font: 12px Helvetica, Arial, sans-serif
-  background-image url('../images/images.jpg')
+  
 
 }
 
@@ -18,11 +18,30 @@ body {
   float center
   margin-left 10px
 
+
 .potrait
   width 250px
   height 180px
   margin 5px
   float left
+
+.potrait2
+  width 250px
+  height 180px
+  margin 5px
+  float right
+
+.andre
+  img{
+    width 180px
+    height 180px
+    margin 5px
+    
+  }
+
+.jawab
+  font: 40px Helvetica, Arial, sans-serif
+  
 
 .bespoke-parent, .bespoke-scale-parent
   position absolute
@@ -31,19 +50,41 @@ body {
   bottom 0
   left 0
 
+.angka
+  color black
+  border-style double
+  background white
+  width 100px
+  height 70px
+  position absolute
+  bottom 0
+  right 0
+  font: 50px Helvetica, Arial, sans-serif
+
+.angka1
+  color black
+  border-style double
+  background white
+  width 100px
+  height 70px
+  position absolute
+  bottom 0
+  left 0
+  font: 50px Helvetica, Arial, sans-serif
+
 .bespoke-scale-parent, .bespoke-slide
   pointer-events none
 
 .bespoke-slide
   // NOTE force opacity to start at 0 to avoid transition on load when using 
-  color #FFF
-  background rgba(249,222,12,0.1)
-  width 100%
+  color white
+  background black
+  width 50%
   margin-left -(@width / 2)
   height 100%
   margin-top -(@height / 4.2)
   display block
-
+  position relative
 
 
 .bespoke-active
