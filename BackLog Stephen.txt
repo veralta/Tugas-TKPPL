@@ -10,3 +10,5 @@ Terkendala:
   pada html sehingga fungsi tidak jalan
 - Inisiasi variabel yang salah sehingga stuck cukup lama karena salah
   inisiasi variabel
+- Terkenda pada bagian passing gambar, dimana gambar tidak dapat muncul 
+  saat masuk ke web lain
