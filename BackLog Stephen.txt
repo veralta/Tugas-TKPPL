@@ -1,0 +1,12 @@
+H-5
+Hal yang dilakukan:
+- Penambahan tema game baru
+- Membuat tampilan game baru bertema game battle kartu turn based
+- Coding function pada javascript
+- Cari resources gambar
+
+Terkendala:
+- Coding pada script terjadi error dimana script tidak terpanggil 
+  pada html sehingga fungsi tidak jalan
+- Inisiasi variabel yang salah sehingga stuck cukup lama karena salah
+  inisiasi variabel
