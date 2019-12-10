@@ -12,3 +12,15 @@ Terkendala:
   inisiasi variabel
 - Terkenda pada bagian passing gambar, dimana gambar tidak dapat muncul 
   saat masuk ke web lain
+
+H-6
+Hal yang dilakukan:
+- Membuat fungsi battle pada game
+- Menambahkan fungsi cari musuh pada game
+- Penambahan gambar dan cerita sebagai musuh untuk game
+
+Terkendala:
+- Coding untuk fungsi battle terjadi error karena tidak inisiasi value
+  setiap atribut seperti health, mana, strength pada game
+- Keliru dalam algoritma sehingga setiap fight musuh selalu menang
+- Tidak jalannya turn based, setiap hit selalu dilakukan oleh enemy

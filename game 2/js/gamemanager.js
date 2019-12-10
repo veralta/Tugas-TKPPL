@@ -43,7 +43,7 @@ let GameManager = {
 			}
 		}
 		let getInterface = document.querySelector(".interface");
-		getInterface.innerHTML = '<img src="img/avatar-player/' + classType.toLowerCase() + '.jpg" class="img-avatar"><div><h3>' + classType + '</h3><p>Health: ' + player.health +'</p><p>Mana: ' + player.mana +'</p><p>Strength: ' + player.strength +'</p><p>Agility: ' + player.agility +'</p><p>Speed: ' + player.speed +'</p></div>';
+		getInterface.innerHTML = '<img src="img/avatar-player/' + classType.toLowerCase() + '.jpg" class="img-avatar"><div><h3>' + classType + '</h3><p class="health-player">Health: ' + player.health +'</p><p>Mana: ' + player.mana +'</p><p>Strength: ' + player.strength +'</p><p>Agility: ' + player.agility +'</p><p>Speed: ' + player.speed +'</p></div>';
 	},
 	setPreFight: function(){
 		let getHeader = document.querySelector(".header");
@@ -59,11 +59,11 @@ let GameManager = {
 		let getEnemy = document.querySelector(".enemy");
 
 		//enemy
-		let enemy1 = new Enemy("Storm Spirit", 140, 170, 90, 120, 100)
-		let enemy2 = new Enemy("Tiny", 600, 0, 370, 100, 80)
-		let randomEnemy = Math.floor(Math.random() * Math.floor(2));
-		console.log(randomEnemy);
-		switch (randomEnemy){
+		let enemy1 = new Enemy("Storm Spirit", 140, 170, 90, 120, 100);
+		let enemy2 = new Enemy("Tiny", 600, 0, 370, 100, 80);
+		let chooseRandomEnemy = Math.floor(Math.random() * Math.floor(2));
+	
+		switch (chooseRandomEnemy){
 			case 0:
 				enemy = enemy1;
 				break;
@@ -73,6 +73,6 @@ let GameManager = {
 		}
 		getHeader.innerHTML ='<p>Task: Choose your move</p>';
 		getAction.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
-		getEnemy.innerHTML = '<img src="Enemy/' + enemy.enemyType.toLowerCase() + ' .jpg" alt="' + enemy.enemyType + '"class="img-avatar"><div><h3>' + enemy.enemyType + '</h3><p class="health-enemy">Health: ' + enemy.health + '</p><p>Mana: ' + enemy.mana + '</p><p>Strength: ' + enemy.strength + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p></div> />';
+		getEnemy.innerHTML = '<img src="img/avatar-enemy/' + enemy.enemyType.toLowerCase() + '.jpg" alt="' + enemy.enemyType + '"class="img-avatar"><div><h3>' + enemy.enemyType + '</h3><p class="health-enemy">Health: ' + enemy.health + '</p><p>Mana: ' + enemy.mana + '</p><p>Strength: ' + enemy.strength + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p></div>';
 	}
 }
