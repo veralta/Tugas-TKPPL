@@ -3,6 +3,7 @@ Hal yang dilakukan:
 - Memperbaiki error pada algoritma agar fight dapat berjalan
 - Menambahkan karakter baru agar banyak pilihan hero yng dapat dipilih
 - Menyeimbangkan status setiap hero
+- Menambah gambar baru
 
 Terkendala
 - Bagian algoritma fight memunculkan sejumlah error saat melakukan fight
