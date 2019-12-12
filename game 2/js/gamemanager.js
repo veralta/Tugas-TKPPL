@@ -73,7 +73,11 @@ let GameManager = {
 		//enemy
 		let enemy1 = new Enemy("Storm Spirit", 700, 250, 100, 160, 170);
 		let enemy2 = new Enemy("Tiny", 600, 0, 370, 100, 200);
-		let chooseRandomEnemy = Math.floor(Math.random() * Math.floor(2));
+		let enemy3 = new Enemy("Juggernaut", 550, 250, 120, 160, 180);
+		let enemy4 = new Enemy("Viper", 700, 0, 270, 100, 210);
+		let enemy5 = new Enemy("Bloodseeker", 500, 150, 200, 200, 180);
+		let enemy6 = new Enemy("Balanar", 570, 180, 220, 100, 190);
+		let chooseRandomEnemy = Math.floor(Math.random() * Math.floor(6));
 	
 		switch (chooseRandomEnemy){
 			case 0:
@@ -81,6 +85,18 @@ let GameManager = {
 				break;
 			case 1:
 				enemy = enemy2;
+				break;
+			case 2:
+				enemy = enemy3;
+				break;
+			case 3:
+				enemy = enemy4;
+				break;
+			case 4:
+				enemy = enemy5;
+				break;
+			case 5:
+				enemy = enemy6;
 				break;
 		}
 		getHeader.innerHTML ='<p>Task: Choose your move</p>';

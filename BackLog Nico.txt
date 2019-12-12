@@ -9,4 +9,13 @@ Terkendala
 - Bagian algoritma fight memunculkan sejumlah error saat melakukan fight
 - Hasil damage terlalu besar
 - Setiap hit yang dilakukan paling tidak harus minimal 1x hit, tetapi ada hero
-  yang tidak hit 
+  yang tidak hit
+
+H-8
+Hal yang dilakukan: 
+- Membuat laporan project bespoke
+- Membuat Backlog Item
+- Menambahkan jumlah enemy pada game
+- Memperbaiki error pada alogritma agar fight tidak terjadi error
+
+ 
